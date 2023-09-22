@@ -1,0 +1,8 @@
+setup.py
+src/EIS_class.py
+src/__init__.py
+src/YorkEIS.egg-info/PKG-INFO
+src/YorkEIS.egg-info/SOURCES.txt
+src/YorkEIS.egg-info/dependency_links.txt
+src/YorkEIS.egg-info/requires.txt
+src/YorkEIS.egg-info/top_level.txt
