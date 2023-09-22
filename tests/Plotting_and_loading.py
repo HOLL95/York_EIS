@@ -7,7 +7,7 @@ from pandas import read_csv
 path=os.getcwd().split("/")
 
 files=["txt_example.txt", "csv_example.csv"]
-file_idx=path.index("Standalone_EIS")
+file_idx=path.index("York_EIS")
 fig, ax=plt.subplots(1,2)#one row, two columns
 for filename in files:
     data_loc=("/").join(path[:file_idx+1]+["Data", filename])

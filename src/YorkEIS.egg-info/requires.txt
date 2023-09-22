@@ -1,4 +1,0 @@
-numpy>=1.8
-pints>=0.5.0
-matplotlib>=1.5
-pandas

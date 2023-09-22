@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 setup(
     # Module name (lowercase)
     name='YorkEIS',
-
+    #packages=["eis_functions"],
+    #py_modules=["EIS_class"],
     # List of dependencies
     install_requires=[
         'numpy>=1.8',
@@ -12,3 +13,8 @@ setup(
     ],
     python_requires='>=3.7',
 )
+def main():
+    print("src")
+
+if __name__ == '__main__':
+    main()

@@ -8,7 +8,7 @@ import pints
 path=os.getcwd().split("/")
 
 filename="csv_example.csv"
-file_idx=path.index("Standalone_EIS")
+file_idx=path.index("York_EIS")
 
 
 data_loc=("/").join(path[:file_idx+1]+["Data", filename])
